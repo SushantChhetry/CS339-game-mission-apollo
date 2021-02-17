@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "wallSprite",
+    "path": "sprites/wallSprite/wallSprite.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -33,4 +33,10 @@ if keyboard_check_direct(vk_down){
 hspeed *=0.9
 speed *=0.9
 
+if(heroLife<0)
+{
+	show_message("Game Over!");
+	game_restart();
+}
+
 
