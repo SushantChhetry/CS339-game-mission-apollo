@@ -1,12 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"meteorSprite","path":"sprites/meteorSprite/meteorSprite.yy",},"order":3,},
     {"id":{"name":"healthObject","path":"objects/healthObject/healthObject.yy",},"order":6,},
     {"id":{"name":"basicEnemyObject","path":"objects/basicEnemyObject/basicEnemyObject.yy",},"order":2,},
     {"id":{"name":"wallSprite","path":"sprites/wallSprite/wallSprite.yy",},"order":1,},
     {"id":{"name":"meteorObject","path":"objects/meteorObject/meteorObject.yy",},"order":1,},
     {"id":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"order":8,},
     {"id":{"name":"checkpointObject","path":"objects/checkpointObject/checkpointObject.yy",},"order":7,},
+<<<<<<< sushant-branch
     {"id":{"name":"heroBulletSprite","path":"sprites/heroBulletSprite/heroBulletSprite.yy",},"order":2,},
+=======
+    {"id":{"name":"basicEnemySprite","path":"sprites/basicEnemySprite/basicEnemySprite.yy",},"order":2,},
+    {"id":{"name":"basicEnemySpawner","path":"objects/basicEnemySpawner/basicEnemySpawner.yy",},"order":9,},
+>>>>>>> main
     {"id":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"order":0,},
     {"id":{"name":"wallObject","path":"objects/wallObject/wallObject.yy",},"order":3,},
     {"id":{"name":"heroSprite","path":"sprites/heroSprite/heroSprite.yy",},"order":0,},
