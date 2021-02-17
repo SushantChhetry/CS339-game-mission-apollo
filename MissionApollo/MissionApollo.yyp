@@ -7,6 +7,7 @@
     {"id":{"name":"checkpointObject","path":"objects/checkpointObject/checkpointObject.yy",},"order":7,},
     {"id":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"order":0,},
     {"id":{"name":"wallObject","path":"objects/wallObject/wallObject.yy",},"order":3,},
+    {"id":{"name":"heroSprite","path":"sprites/heroSprite/heroSprite.yy",},"order":0,},
     {"id":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"order":4,},
     {"id":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -14,6 +15,8 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
