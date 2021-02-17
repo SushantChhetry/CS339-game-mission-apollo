@@ -39,4 +39,16 @@ if(heroLife<0)
 	game_restart();
 }
 
+shootTimer -= 1;
+
+if(shootTimer<1) {
+
+p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
+p.speed = 10
+p.image_angle = p.direction
+
+shootTimer = shootInterval;
+}
+
 

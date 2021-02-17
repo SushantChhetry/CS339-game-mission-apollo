@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "heroBulletSprite",
+    "path": "sprites/heroBulletSprite/heroBulletSprite.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

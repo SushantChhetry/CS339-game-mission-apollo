@@ -1,1 +1,1 @@
-draw_text(200,200,string(heroLife));
+draw_text(200,200,heroLife);
