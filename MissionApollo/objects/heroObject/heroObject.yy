@@ -27,6 +27,7 @@
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"basicEnemyObject","path":"objects/basicEnemyObject/basicEnemyObject.yy",},"parent":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"meteorObject","path":"objects/meteorObject/meteorObject.yy",},"parent":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"healthObject","path":"objects/healthObject/healthObject.yy",},"parent":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
