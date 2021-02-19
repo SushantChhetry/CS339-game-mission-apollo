@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"meteorSprite","path":"sprites/meteorSprite/meteorSprite.yy",},"order":3,},
+    {"id":{"name":"heroBulletSprite","path":"sprites/heroBulletSprite/heroBulletSprite.yy",},"order":4,},
     {"id":{"name":"healthObject","path":"objects/healthObject/healthObject.yy",},"order":6,},
     {"id":{"name":"basicEnemyObject","path":"objects/basicEnemyObject/basicEnemyObject.yy",},"order":2,},
     {"id":{"name":"wallSprite","path":"sprites/wallSprite/wallSprite.yy",},"order":1,},
