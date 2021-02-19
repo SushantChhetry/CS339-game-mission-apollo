@@ -1,0 +1,1 @@
+heroLife += 1;

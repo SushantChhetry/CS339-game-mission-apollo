@@ -1,2 +1,2 @@
-basicEnemyObject.enemyInRoom -= 1
+//basicEnemyObject.enemyInRoom -= 1
 instance_destroy()
