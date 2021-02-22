@@ -1,6 +1,6 @@
 //Sushant
 
-gunType = 1
+gunType = 0
 normalSpeed = 5
 jumpSpeed = 15
 heroHealth = 100
