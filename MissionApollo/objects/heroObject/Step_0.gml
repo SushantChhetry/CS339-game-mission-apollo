@@ -7,12 +7,12 @@ if keyboard_check_direct(vk_right) {
     }
 }
 // moving left
-if keyboard_check_direct(vk_left) {
+//if keyboard_check_direct(vk_left) {
     // is there space for me to move left?
-    if !place_meeting(x-normalSpeed, y, wallObject) {
-        hspeed = -normalSpeed
-    }
-}
+  //  if !place_meeting(x-normalSpeed, y, wallObject) {
+    //    hspeed = -normalSpeed
+  //  }
+//}
 
 //moving up
 if keyboard_check_direct(vk_up){
@@ -47,45 +47,45 @@ if(shootTimer<1) {
 	{
 	
 
-p = instance_create_layer(x, y, "Instances" , heroBulletObject)
-p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
-p.speed = 10
-p.image_angle = p.direction
+		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+		p.direction = 0 
+		p.speed = 10
+		p.image_angle = p.direction
 	}
 	
 	else if (gunType == 1) {
 	
-p = instance_create_layer(x, y, "Instances" , heroBulletObject)
-p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
-p.speed = 30
-p.image_angle = p.direction
+		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+		p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
+		p.speed = 30
+		p.image_angle = p.direction
 	}
 	
 	else if (gunType == 2) {
 	
 	
-p = instance_create_layer(x, y, "Instances" , heroBulletObject)
-p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
-p.speed = 10
-p.image_angle = p.direction
+		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+		p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
+		p.speed = 10
+		p.image_angle = p.direction
 
-p = instance_create_layer(x, y, "Instances" , heroBulletObject)
-p.direction = point_direction(x , y, mouse_x+20, mouse_y+20) // make projectile direction same as hero direction
-p.speed = 10
-p.image_angle = p.direction
+		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+		p.direction = point_direction(x , y, mouse_x+20, mouse_y+20) // make projectile direction same as hero direction
+		p.speed = 10
+		p.image_angle = p.direction
 
-p = instance_create_layer(x, y, "Instances" , heroBulletObject)
-p.direction = point_direction(x , y, mouse_x-20, mouse_y-20) // make projectile direction same as hero direction
-p.speed = 10
-p.image_angle = p.direction
+		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+		p.direction = point_direction(x , y, mouse_x-20, mouse_y-20) // make projectile direction same as hero direction
+		p.speed = 10
+		p.image_angle = p.direction
 
-}
+	}
 	else {
 	
-p = instance_create_layer(x, y, "Instances" , heroBulletObject)
-p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
-p.speed = 10
-p.image_angle = p.direction
+		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
+		p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
+		p.speed = 10
+		p.image_angle = p.direction
 	}
 
 shootTimer = shootInterval;
