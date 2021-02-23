@@ -1,0 +1,1 @@
+enemyInRoom -= 1

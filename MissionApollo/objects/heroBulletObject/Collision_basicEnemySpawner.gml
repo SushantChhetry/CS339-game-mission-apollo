@@ -1,0 +1,1 @@
+basicEnemySpawner.enemyInRoom -= 1

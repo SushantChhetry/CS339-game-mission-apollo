@@ -1,4 +1,4 @@
-if enemyInRoom < maxEnemyInRoom {
+if ((distance_to_object(heroObject) < 400) and (enemyInRoom < maxEnemyInRoom)) {
 	if (spawnTimer > 0){
 		spawnTimer -= 1
 	}
@@ -9,3 +9,5 @@ if enemyInRoom < maxEnemyInRoom {
 		enemyInRoom += 1
 	}
 }
+
+
