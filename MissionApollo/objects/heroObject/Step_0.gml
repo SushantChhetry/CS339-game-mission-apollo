@@ -7,12 +7,12 @@ if keyboard_check_direct(vk_right) {
     }
 }
 // moving left
-//if keyboard_check_direct(vk_left) {
-    // is there space for me to move left?
-  //  if !place_meeting(x-normalSpeed, y, wallObject) {
-    //    hspeed = -normalSpeed
-  //  }
-//}
+if keyboard_check_direct(vk_left) {
+   // is there space for me to move left?
+    if !place_meeting(x-normalSpeed, y, wallObject) {
+        hspeed = -normalSpeed
+   }
+}
 
 //moving up
 if keyboard_check_direct(vk_up){

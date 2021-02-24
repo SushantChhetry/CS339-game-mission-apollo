@@ -24,6 +24,8 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"healthObject","path":"objects/healthObject/healthObject.yy",},"parent":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"basicEnemySpawner","path":"objects/basicEnemySpawner/basicEnemySpawner.yy",},"parent":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"basicEnemyObject","path":"objects/basicEnemyObject/basicEnemyObject.yy",},"parent":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"meteorObject","path":"objects/meteorObject/meteorObject.yy",},"parent":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
