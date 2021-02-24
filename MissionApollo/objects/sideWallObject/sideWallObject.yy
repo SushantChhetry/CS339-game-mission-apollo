@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "wallSprite",
-    "path": "sprites/wallSprite/wallSprite.yy",
+    "name": "sideWallObjectSprite",
+    "path": "sprites/sideWallObjectSprite/sideWallObjectSprite.yy",
   },
   "solid": false,
   "visible": false,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"wallObject","path":"objects/wallObject/wallObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "wallObject",
+  "name": "sideWallObject",
   "tags": [],
   "resourceType": "GMObject",
 }
