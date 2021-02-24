@@ -1,4 +1,4 @@
 enemyInRoom = 0
-maxEnemyInRoom = 4
-spawnInterval = 300
+maxEnemyInRoom = 2
+spawnInterval = 100
 spawnTimer = spawnInterval

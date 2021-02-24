@@ -17,15 +17,23 @@
     {"id":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"order":8,},
     {"id":{"name":"immersionObject","path":"objects/immersionObject/immersionObject.yy",},"order":12,},
     {"id":{"name":"checkpointObject","path":"objects/checkpointObject/checkpointObject.yy",},"order":7,},
-    {"id":{"name":"basicEnemySprite","path":"sprites/basicEnemySprite/basicEnemySprite.yy",},"order":2,},
+
     {"id":{"name":"sideWallObject","path":"objects/sideWallObject/sideWallObject.yy",},"order":11,},
+
+    {"id":{"name":"basicEnemyLeftSprite","path":"sprites/basicEnemyLeftSprite/basicEnemyLeftSprite.yy",},"order":2,},
+    {"id":{"name":"basicEnemyDownRightSprite","path":"sprites/basicEnemyDownRightSprite/basicEnemyDownRightSprite.yy",},"order":12,},
+
     {"id":{"name":"basicEnemySpawner","path":"objects/basicEnemySpawner/basicEnemySpawner.yy",},"order":9,},
     {"id":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"order":0,},
+    {"id":{"name":"basicEnemyRightSprite","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"order":11,},
+    {"id":{"name":"basicEnemyUpLeftSprite","path":"sprites/basicEnemyUpLeftSprite/basicEnemyUpLeftSprite.yy",},"order":15,},
+    {"id":{"name":"basicEnemyUpRightSprite","path":"sprites/basicEnemyUpRightSprite/basicEnemyUpRightSprite.yy",},"order":14,},
     {"id":{"name":"gunTypeSpawner","path":"objects/gunTypeSpawner/gunTypeSpawner.yy",},"order":10,},
     {"id":{"name":"wallObject","path":"objects/wallObject/wallObject.yy",},"order":3,},
     {"id":{"name":"heroIdleSprite","path":"sprites/heroIdleSprite/heroIdleSprite.yy",},"order":0,},
     {"id":{"name":"heroBulletObject","path":"objects/heroBulletObject/heroBulletObject.yy",},"order":4,},
     {"id":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"order":5,},
+    {"id":{"name":"basicEnemyDownLeftSprite","path":"sprites/basicEnemyDownLeftSprite/basicEnemyDownLeftSprite.yy",},"order":13,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
