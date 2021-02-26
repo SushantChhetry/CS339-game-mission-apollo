@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "meteorSprite",
-    "path": "sprites/meteorSprite/meteorSprite.yy",
+    "name": "meteoriteSprite",
+    "path": "sprites/meteoriteSprite/meteoriteSprite.yy",
   },
   "solid": true,
   "visible": true,
