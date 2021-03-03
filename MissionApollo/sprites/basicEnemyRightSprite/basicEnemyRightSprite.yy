@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 31,
-  "bbox_top": 4,
-  "bbox_bottom": 24,
+  "bbox_left": 11,
+  "bbox_right": 56,
+  "bbox_top": 15,
+  "bbox_bottom": 44,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"70dd1c27-7fea-4fee-bbb6-49ccdb3e061f","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"70dd1c27-7fea-4fee-bbb6-49ccdb3e061f","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"LayerId":{"name":"f03b533c-c976-44da-901d-090da4da7d98","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"basicEnemyRightSprite","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"resourceVersion":"1.0","name":"70dd1c27-7fea-4fee-bbb6-49ccdb3e061f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0fae67a7-f203-4197-96ec-d89bb3b8827c","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0fae67a7-f203-4197-96ec-d89bb3b8827c","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"LayerId":{"name":"cf75a607-040b-4a0f-9af9-10111e4569ea","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"basicEnemyRightSprite","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"resourceVersion":"1.0","name":"0fae67a7-f203-4197-96ec-d89bb3b8827c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"basicEnemyRightSprite","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"24f5dc3e-27f8-40c1-8bca-27ceedebfafb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70dd1c27-7fea-4fee-bbb6-49ccdb3e061f","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c274fbae-336b-4fee-9e41-2a3716b46f53","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0fae67a7-f203-4197-96ec-d89bb3b8827c","path":"sprites/basicEnemyRightSprite/basicEnemyRightSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f03b533c-c976-44da-901d-090da4da7d98","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf75a607-040b-4a0f-9af9-10111e4569ea","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
