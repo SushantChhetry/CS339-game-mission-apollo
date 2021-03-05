@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "enemyBulletSprite",
+    "path": "sprites/enemyBulletSprite/enemyBulletSprite.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
