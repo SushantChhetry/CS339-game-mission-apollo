@@ -1,1 +1,0 @@
-draw_text(200,20,gunType)

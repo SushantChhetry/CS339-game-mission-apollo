@@ -27,7 +27,6 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"parent":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"gunTypeObject","path":"objects/gunTypeObject/gunTypeObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
