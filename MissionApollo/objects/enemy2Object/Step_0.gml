@@ -1,4 +1,11 @@
-mp_potential_step(heroObject.x, heroObject.y, 1, false)
+if(distance_to_object(heroObject) < 700 ) {
+if heroObject.x < x {
+	x -= 2
+}
+else {
+	x += 2	
+}
+
 
 shootTimer -= 1;
 if(bulletCount > 0)
@@ -15,7 +22,7 @@ bulletCount -=1
 }
 
 }
-
+}
 
 
 if (enemyHealth < 0) {instance_destroy()}
