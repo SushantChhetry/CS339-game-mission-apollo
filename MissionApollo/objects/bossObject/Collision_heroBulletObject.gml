@@ -1,0 +1,2 @@
+
+bossHealth -= 5

@@ -23,6 +23,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"basicEnemyObject","path":"objects/basicEnemyObject/basicEnemyObject.yy",},"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"enemy2Object","path":"objects/enemy2Object/enemy2Object.yy",},"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"enemy3Object","path":"objects/enemy3Object/enemy3Object.yy",},"parent":{"name":"enemyBulletObject","path":"objects/enemyBulletObject/enemyBulletObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

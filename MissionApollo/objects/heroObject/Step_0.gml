@@ -33,11 +33,7 @@ if keyboard_check_direct(vk_down){
 hspeed *=0.9
 speed *=0.9
 
-if(heroLife<0)
-{
-	show_message("Game Over!");
-	game_restart();
-}
+
 
 
 shootTimer -= 1;
@@ -57,7 +53,7 @@ if(shootTimer<1) {
 	
 		p = instance_create_layer(x, y, "Instances" , heroBulletObject)
 		p.direction = point_direction(x , y, mouse_x, mouse_y) // make projectile direction same as hero direction
-		p.speed = 30
+		p.speed = 15
 		p.image_angle = p.direction
 	}
 	
@@ -90,4 +86,22 @@ if(shootTimer<1) {
 
 shootTimer = shootInterval;
 
+}
+
+if (heroHealth < 0) {
+	heroLife -=1
+	
+	audio_play_sound(gameOverSound, 1, false)
+	show_message("Lost a life!");
+	room_restart()
+	heroHealth = 100;
+	
+	
+}
+if(heroLife<0)
+{
+	
+	
+	show_message("Game Over!");
+	game_restart();
 }

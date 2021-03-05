@@ -1,0 +1,2 @@
+heroHealth -= 10
+
